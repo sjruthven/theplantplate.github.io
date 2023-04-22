@@ -1,0 +1,137 @@
+body {
+    background-color: #F5F5EF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #BBC6FF;
+    color: #0047AB;
+    padding: 0.5px;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Baskerville', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #0047AB;
+    text-decoration: none;
+}
+
+nav b {
+    font-family: 'Andale Mono', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+}
+
+main {
+    font-family: 'Andale Mono', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.image-container {
+    position: relative;
+    /* Set the height and width of the container to match the image */
+    height: 320px;
+    width: 320px;
+}
+  
+  .image-container img {
+    display: block;
+    /* Set the height and width of the image to fill the container */
+    height: 100%;
+    width: 100%;
+}
+
+  .image-container1 {
+    position: relative;
+    /* Set the height and width of the container to match the image */
+    height: 150px;
+    width: 150px;
+}
+  
+  .image-container1 img {
+    display: block;
+    /* Set the height and width of the image to fill the container */
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* distribute space evenly between blocks */
+  }
+  
+  .left-block, .right-block {
+    flex-basis: 50%; /* set each block to occupy half of the container */
+    margin-left: 90px;
+    padding: 10px; /* add some padding for visual separation */
+  }
+  
+  
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #F5F5EF;
+    color: #0047AB;
+}
